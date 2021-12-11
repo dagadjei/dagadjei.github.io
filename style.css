@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;600&display=swap');
 *, *::before, *::after{
     box-sizing: border-box;
 }
@@ -18,7 +18,7 @@ body{
 }
 .logo{
     font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
+    font-weight: bolder;
     font-size: 36px;
     font-style: normal;
     color: #021718;
@@ -43,13 +43,14 @@ body{
 .nav-items li{
     margin-bottom: 1em;
     margin-left: 1em;
-    font-weight: bold;
+    font-weight: bolder;
 }
 .nav-items a{
     color: #021718;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1.2rem;
+    font-weight: bolder;
 }
 .nav-items a:hover{
     cursor: pointer;
