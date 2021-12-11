@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+:root{
+    --clr-primary: hsl(205, 78%, 60%);
+    --transition: all 0.3s linear;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    /* background-image: url("./images/Vector.png"); */
+    /* background: rgb(202, 243, 239); */
+}
+/* Navigation */
+.nav-container{
+    height: 70px;
+    background: #fffa;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+.wrapper{
+    width: 1240px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+.nav-toggle{
+    display: none;
+}
+nav ul{
+    display: flex;
+}
+nav .logo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    font-style: normal;
+    color: #021718;
+}
+.nav-items li{
+    list-style: none;
+    margin-right: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    font-style: normal;
+    text-decoration: none;
+    /* color: #021718; */
+}
+.nav-items li a{
+    text-decoration: none;
+}
+a:active, a:hover{
+    /* background: ; */
+    transition: .5s;
+}
+.nav-items li:nth-last-of-type(1){
+    margin: 0;
+}
+.nav-items li a{
+    font-size: 24px;
+}
+
+/* Header */
+.header-container{
+    /* width: 1024px; */
+    background: url("./images/Vector.png");
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.part-one{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.hero-container{
+    margin-left: 30px;
+    padding-right: 30px;
+}
+.hero-image{
+    padding-left: 120px;
+    margin-top: 80px;
+}
+
+.part-two{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.hero-image-two{
+    padding-left: 90px;
+    
+}
+.hero-container-two{
+    padding-left: 150px;
+    padding-top: 70px;
+}
+.name{
+    color:  hsl(277, 47%, 30%);
+    font-weight: 900;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    min-height: 50vh;
+    padding: 4rem;
+    /* border: 1px solid red; */
+}
+.sections{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* border: 1px solid red; */
+    padding: 2rem;
+    border-radius: 0.5em;
+    margin: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.card-button{
+    display: inline-block;
+    background-color: #16e0e7a9;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.5);
+    color:hsl(0, 0%, 0%);
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1em;
+    height: 30px;
+    padding: 0 25px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.desc-text{
+    margin: 20px 0;
+}
+.head{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    font-style: normal;
+    color: #021718;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+/* Footer */
+
+.footer {
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  height: 90px;
+  background-color: #1a1c20;
+}
+
+.footer-content-right {
+  padding-right:40px;
+  margin-top:20px;
+  float:right;
+}
+
+.icon-style {
+  height:40px;
+  margin-left:20px;
+  margin-top:5px;
+}
+
+.icon-style:hover {
+  background-color:rgb(38, 197, 171);
+  padding:5px;
+}
+
+/* @media only screen and (max-width: 600px) {
+    .nav-items{
+        height: 0;
+        overflow: hidden;
+        transition: var(--transition);
+    }
+    .nav-toggle{
+        font-size: 1.5rem;
+        background: transparent;
+        border-color: transparent;
+        transition: var(--transition);
+        cursor: pointer;
+        color: var(--clr-primary);
+        display: block;
+    }
+    .show-links{
+        height: 10rem;
+    }
+    .logo{
+        padding: 30px;
+    }
+    .header-container{
+        padding: 30px;
+    }
+}  */
