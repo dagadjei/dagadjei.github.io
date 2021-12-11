@@ -28,7 +28,7 @@ body{
     text-align: left;
     top: 100%;
     left: 0;
-    background: #fffa;
+    background: rgba(255, 255, 255, 3);
     width: 100%;
     display: none;
     transform: scale(1,0);
@@ -39,11 +39,13 @@ body{
     margin: 0;
     padding: 0;
     list-style: none;
+    background: rgba(255, 255, 255, 3);
 }
 .nav-items li{
     margin-bottom: 1em;
     margin-left: 1em;
     font-weight: bolder;
+    background: rgba(255, 255, 255, 3);
 }
 .nav-items a{
     color: #021718;
@@ -58,6 +60,8 @@ body{
 .nav-toggle:checked ~ .nav-items{
     display: block;
     transform: scale(1,1);
+    background: rgba(255, 255, 255, 3);
+
 }
 .nav-toggle{
     display: none;
@@ -102,8 +106,6 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: url("./images/Vector.png");
-    background-repeat: no-repeat;
 }
 .hero-container{
     padding-left: 10px;
@@ -154,6 +156,8 @@ header{
     font-size: 20px;
     font-weight: bold;
     width: 90%;
+    background: url("./images/Vector.png");
+    background-repeat: no-repeat;
 }
 .sections{
     display: flex;
@@ -189,3 +193,5 @@ header{
 .card-button a{
     text-decoration: none;
 }
+
+
