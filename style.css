@@ -42,6 +42,11 @@ body{
     background: rgba(255, 255, 255, 3);
 }
 .nav-items li{
+    margin-bottom: 1em;
+    margin-left: 1em;
+    font-weight: bolder;
+    background: rgba(255, 255, 255, 3);
+    color: #0de9d3;
 }
 .nav-items a{
     color: #0de9d3;
